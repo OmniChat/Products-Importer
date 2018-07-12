@@ -1,0 +1,41 @@
+{
+  "name": "products-importer",
+  "version": "1.0.0",
+  "description": "OmniChat Proucts importer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "omnichat",
+    "importer"
+  ],
+  "author": "Flavio Negrão",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^1.2.1",
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-plugin-import": "^1.6.1",
+    "eslint-plugin-jsx-a11y": "^1.0.4",
+    "eslint-plugin-react": "^5.0.1",
+    "omnichat-model": "git+https://github.com/OmniChat/OmniChat-Model.git",
+    "parse": "^1.11.1",
+    "request": "^2.85.0",
+    "request-promise": "^4.1.1",
+    "sharp": "^0.16.0",
+    "stream-transform": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/dateformat": "^1.0.1",
+    "@types/express": "^4.11.1",
+    "@types/jasmine": "^2.8.6",
+    "@types/parse": "^2.4.7",
+    "@types/request": "0.0.32",
+    "@types/request-promise": "^4.1.41",
+    "@types/winston": "0.0.32",
+    "eslint": "^3.5.0",
+    "eslint-config-google": "^0.6.0"
+  }
+}

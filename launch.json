@@ -1,0 +1,63 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceRoot}/importer.js",
+			"stopOnEntry": false,
+			"args": ["XGuL13tmmC","/Users/flavio/Downloads/ARTEDESIGN.csv"],
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": null,
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+				"NODE_ENV": "development",
+				"PARSE_APP_ID": "lHC0oT3G1oZRPB2otwYngjMjKnsOVFGfxWw5PrTM",
+        "PARSE_JAVASCRIPT_KEY": "iEBep3E6CcDM1jzJ2pVmgNRpoyGcSJVqH67kN0JA",
+        "PARSE_MASTER_KEY": "69iG67YzS0FddY17VmX0Jo2DwK6SjJkg0Gfp3lhO"
+			},
+			"externalConsole": false,
+			"sourceMaps": false,
+			"outDir": null
+		},
+		{
+			"name": "Launch Prod",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceRoot}/importer.js",
+			"stopOnEntry": false,
+			"args": [],
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": null,
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+				"NODE_ENV": "production",
+				"PARSE_APP_ID": "UCeS99itvZg1tsea2OSoyKvpLbKddhoVAPotIQOy",
+        "PARSE_JAVASCRIPT_KEY": "MS0rXGFNWHNtfgd2MqHfQk3W2Uzb4lPhjcMG30fO",
+        "PARSE_MASTER_KEY": "UiudZ86foLbJLDMqj5IeSL5edy9fzCuLTcQ4HQbu"
+			},
+			"externalConsole": false,
+			"sourceMaps": false,
+			"outDir": null
+		},
+		{
+			"name": "Attach",
+			"type": "node",
+			"request": "attach",
+			"port": 5858,
+			"address": "localhost",
+			"restart": false,
+			"sourceMaps": false,
+			"outDir": null,
+			"localRoot": "${workspaceRoot}",
+			"remoteRoot": null
+		}
+	]
+}
