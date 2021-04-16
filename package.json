@@ -13,7 +13,7 @@
   "author": "Flavio Negrão",
   "license": "MIT",
   "dependencies": {
-    "csv-parse": "^1.2.1",
+    "csv-parse": "^4.4.6",
     "eslint": "^2.9.0",
     "eslint-config-airbnb": "^8.0.0",
     "eslint-plugin-import": "^1.6.1",
